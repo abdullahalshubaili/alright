@@ -419,7 +419,8 @@ class WhatsApp(object):
 
             # This is the XPath of the message textbox
             inp_xpath = (
-                '//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div[2]'
+#                 '//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div[2]'
+                '//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div[1]'
             )
             # This is the XPath of the "ok button" if the number was not found
             nr_not_found_xpath = (
